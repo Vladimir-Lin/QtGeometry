@@ -1,0 +1,169 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>幾何計算模組：平面度規換算</title>
+    <link href="../classic.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div align="center">
+      <h1>幾何計算模組：平面度規換算</h1>
+    </div>
+    <hr size="2" width="100%">
+    <table width="100%" border="0" cellpadding="0" cellspacing="0">
+      <tbody>
+        <tr>
+          <td valign="top"><a href="../index.html">CIOS Geometry</a><br>
+          </td>
+          <td valign="top"><a href="index.html">幾何計算模組</a><br>
+          </td>
+          <td valign="top"><a href="vector.html">向量</a><br>
+          </td>
+          <td valign="top"><br>
+          </td>
+          <td valign="top"><br>
+          </td>
+          <td valign="top"><br>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <hr size="2" width="100%">
+    <h2> 目錄</h2>
+    <br>
+    <br>
+    <br>
+    <ol>
+      <li>平面</li>
+      <ol>
+        <li>矩形度規換算</li>
+        <li>xx<br>
+        </li>
+      </ol>
+      <li>xxx<br>
+      </li>
+    </ol>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <hr size="2" width="100%"><br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <hr size="2" width="100%">
+    <h2>矩形度規換算</h2>
+    <br>
+    N平面上有個矩形上有四個點，分別為Z<sub>0</sub>,Z<sub>1</sub>,Z<sub>2</sub>,Z<sub>3</sub>。
+    其中：<br>
+    <br>
+    V<sub>x</sub> = Z<sub>1</sub> - Z<sub>0</sub><br>
+    V<sub>y</sub> = Z<sub>3</sub> - Z<sub>0</sub><br>
+    N = V<sub>x</sub> × V<sub>y</sub><br>
+    <br>
+    在N平面上有個點P，將點P換算成以&lt; V<sub>x</sub> , V<sub>y</sub> &gt;作為流形度規的單位，計算
+    式如下：<br>
+    <br>
+    S = P - Z<sub>0</sub><br>
+    S<sub>L</sub> = | S | , 為S向量的單位長度。<br>
+    L<sub>x</sub> = | V<sub>x</sub> | , 為V<sub>x</sub>向量的單位長度。<br>
+    L<sub>y</sub> = | V<sub>y</sub> | , 為V<sub>y</sub>向量的單位長度。<br>
+    F<sub>x</sub> = ( S ．V<sub>x</sub>&nbsp; ) /&nbsp; ( S<sub>L</sub>
+    ．L<sub>x</sub> ) ，為S在V<sub>x</sub>向量上的投影分量。<br>
+    F<sub>y</sub> = ( S ．V<sub>y</sub>&nbsp; ) /&nbsp; ( S<sub>L</sub>
+    ．L<sub>y</sub> ) ，為S在V<sub>y</sub>向量上的投影分量。<br>
+    f<sub>x</sub> = ( F<sub>x</sub> ．S<sub>L</sub> ) / L<sub>x</sub>
+    ，為S以V<sub>x</sub>向量作為度規的量。<br>
+    f<sub>y</sub> = ( F<sub>y</sub> ．S<sub>L</sub> ) / L<sub>y</sub>
+    ，為S以V<sub>y</sub>向量作為度規的量。<br>
+    <br>
+    f<sub>x</sub> = ( S ．V<sub>x</sub>&nbsp; ) / (&nbsp; V<sub>x</sub>
+    ．V<sub>x</sub>&nbsp; )<br>
+    f<sub>y</sub> = ( S ．V<sub>y</sub>&nbsp; ) / (&nbsp; V<sub>y</sub>
+    ．V<sub>y</sub>&nbsp; )<br>
+    <br>
+    當<br>
+    f<sub>x</sub> &gt;= 0.0<br>
+    f<sub>x</sub> &lt;= 1.0<br>
+    f<sub>y</sub> &gt;= 0.0<br>
+    f<sub>y</sub> &lt;= 1.0<br>
+    四個條件成立時，點P位於矩形之內。<br>
+    <br>
+    計算式列表：<br>
+    <br>
+    <ol>
+      <li>V<sub>x</sub> = Z<sub>1</sub> - Z<sub>0</sub></li>
+      <li>V<sub>y</sub> = Z<sub>3</sub> - Z<sub>0</sub></li>
+      <li>S = P - Z<sub>0</sub></li>
+      <li> f<sub>x</sub> = ( S ．V<sub>x</sub>&nbsp; ) / (&nbsp; V<sub>x</sub>
+        ．V<sub>x</sub>&nbsp; )</li>
+      <li> f<sub>y</sub> = ( S ．V<sub>y</sub>&nbsp; ) / (&nbsp; V<sub>y</sub>
+        ．V<sub>y</sub>&nbsp; )</li>
+    </ol>
+    <br>
+    <hr size="2" width="100%"><br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <hr size="2" width="100%"><br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <hr size="2" width="100%"><br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <hr size="2" width="100%">
+    <div align="center"><font color="#cc6600"><i><b>Neutrino
+            International Inc. 2001~2016</b></i></font><br>
+    </div>
+    <br>
+  </body>
+</html>

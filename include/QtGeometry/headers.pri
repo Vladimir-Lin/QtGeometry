@@ -1,0 +1,5 @@
+SYNCQT.HEADER_FILES = ../../include/QtGeometry/qtgeometry.h
+SYNCQT.HEADER_CLASSES = ../../include/QtGeometry/QtGeometry
+SYNCQT.PRIVATE_HEADER_FILES =
+SYNCQT.QPA_HEADER_FILES = 
+SYNCQT.INJECTIONS = 

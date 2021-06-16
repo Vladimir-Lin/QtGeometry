@@ -1,0 +1,147 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>几何计算模块：平面交点计算</title>
+    <link href="../classic.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div align="center">
+      <h1>几何计算模块：平面交点计算</h1>
+    </div>
+    <hr size="2" width="100%">
+    <table width="100%" border="0" cellpadding="0" cellspacing="0">
+      <tbody>
+        <tr>
+          <td valign="top"><a href="../index.html">CIOS Geometry</a><br>
+          </td>
+          <td valign="top"><a href="index.html">几何计算模块</a><br>
+          </td>
+          <td valign="top"><a href="vector.html">向量</a><br>
+          </td>
+          <td valign="top"><br>
+          </td>
+          <td valign="top"><br>
+          </td>
+          <td valign="top"><br>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <hr size="2" width="100%">
+    <h2> 目录</h2>
+    <br>
+    <br>
+    <br>
+    <ol>
+      <li>平面</li>
+      <ol>
+        <li>矩形与向量的交点计算</li>
+        <li>xx<br>
+        </li>
+      </ol>
+      <li>xxx<br>
+      </li>
+    </ol>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <hr size="2" width="100%"><br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <hr size="2" width="100%">
+    <h2>矩形与向量的交点计算</h2>
+    <br>
+    <br>
+    N平面上有个矩形上有四个点，分别为Z<sub>0</sub>,Z<sub>1</sub>,Z<sub>2</sub>,Z<sub>3</sub>。
+    其中：<br>
+    <br>
+    V<sub>x</sub> = Z<sub>1</sub> - Z<sub>0</sub><br>
+    V<sub>y</sub> = Z<sub>3</sub> - Z<sub>0</sub><br>
+    N = V<sub>x</sub> × V<sub>y</sub><br>
+    <br>
+    有两个点P<sub>1</sub>,P<sub>2</sub>组成向量V，P =P<sub>1</sub> +
+    tV线段与平面N的交点计算如下：<br>
+    <br>
+    平面方程为 a．x + b．y + c．z + d = 0<br>
+    <br>
+    N = ( a , b , c )<br>
+    <br>
+    Z<sub>0</sub>必落于平面N之上，因此 N ．Z<sub>0</sub> + d = 0<br>
+    <br>
+    d = - N ．Z<sub>0</sub><br>
+    <br>
+    而P与平面N的交点亦落于平面N上，因此 N ．P + d = 0<br>
+    <br>
+    N．P - N ．Z<sub>0</sub> = 0<br>
+    V = ( P<sub>2</sub>&nbsp; - P<sub>1</sub> )<br>
+    N．( P<sub>1</sub> + tV ) = N．Z<sub>0</sub><br>
+    t．N．V = N．( Z<sub>0</sub> - P<sub>1</sub> )<br>
+    t = N．( Z<sub>0</sub> - P<sub>1</sub> ) / N．V <br>
+    <br>
+    计算式列表：<br>
+    <ol>
+      <li> V<sub>x</sub> = Z<sub>1</sub> - Z<sub>0</sub></li>
+      <li> V<sub>y</sub> = Z<sub>3</sub> - Z<sub>0</sub></li>
+      <li>V = P<sub>2</sub>&nbsp; - P<sub>1</sub></li>
+      <li>W = Z<sub>0</sub> - P<sub>1</sub></li>
+      <li> N = V<sub>x</sub> × V<sub>y</sub></li>
+      <li>t = N．W / N．V</li>
+      <li>P =P<sub>1</sub> + tV<br>
+      </li>
+    </ol>
+    <br>
+    <hr size="2" width="100%"><br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <hr size="2" width="100%"><br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <hr size="2" width="100%">
+    <div align="center"><font color="#cc6600"><i><b>Neutrino
+            International Inc. 2001~2016</b></i></font><br>
+    </div>
+    <br>
+  </body>
+</html>
